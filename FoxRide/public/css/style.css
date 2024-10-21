@@ -1,0 +1,123 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+} 
+
+.car-logo-left {
+    width: 150px;
+    float: right;
+    transform: scalex(-1);
+}
+
+.car-logo-right {
+    width: 150px;
+    float: right;
+}
+
+.small-logo {
+    width: 100px;
+} 
+
+.taskBar{
+    background-color:brown;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2rem, solid, black;
+}
+
+.taskBarButton {
+    color: whitesmoke;
+    text-decoration:none;
+    font-size: 25px;
+    font-weight:bold;
+    margin-right: 10px; 
+}
+
+.taskBarButton:hover {
+    color: #acabab;
+    text-decoration:none;
+    font-size: 25px;
+    font-weight:bold;
+    margin-right: 10px; 
+}
+
+/* Style for the paragraph */
+.container p {
+    font-size: 24px; 
+    color:white; 
+    text-align:center; 
+    margin:20px;; 
+}
+
+/* Style for the picture */
+.container img {
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.main{
+    background-image: url(/FoxRide/public/images/hudson.jpg);
+    background-size: cover;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(165, 42, 42, 0) 100%);
+    z-index: 1;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 50px;
+
+}
+.main_content h1 {
+    font-size: 4rem;
+    font-weight: 1000;
+    background-image: linear-gradient(to top, #ff0844 0%, burlywood 100%);
+    background-size: 100%;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+.main_content h2 {
+    font-size: 2rem;
+    font-weight: 1000;
+    background-image: linear-gradient(to top, burlywood 0%, rgb(189, 104, 25)200%);
+    background-size: 100%;
+    padding: .8%;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+.main_content p {
+    font-size: x-large;
+    font-weight: 800;
+    color: lightgray;
+    text-align: center;
+}
+
+/* What moves the UI elements when the screen size shrinks*/
+@media screen and (width < 1400px) {
+    .car-logo-left{
+        display: none;
+    }
+    .car-logo-right{
+        display: none;
+    }
+}
+
+

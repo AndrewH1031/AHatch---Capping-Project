@@ -1,0 +1,147 @@
+body {
+    background-image: url(/FoxRide/public/images/maristbg.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+} 
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 1000;
+}
+
+h2 {
+    text-align: center;
+    margin-right: 18%;
+    transform: translateY(200%);
+    font-weight: 1000;
+
+}
+
+h3 {
+    text-align: center;
+    transform: translateY(550%);
+}
+
+p {
+    text-align: center; 
+}
+
+.avatar-logo {
+    margin-top: 1px;
+    width: 136px;
+}   
+
+.profileContainerL {
+    width:20%;
+    min-width: 350px;
+    color: white;
+    float:left;
+    margin-left: 175px;
+}
+
+.profileContainerL-box {
+    margin-bottom:20px;
+    border:2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:darkred;
+    background-color:indianred;
+}
+
+.profileContainerL-box-header {
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: darkred;
+}
+
+.profileContainerL-box-input {
+    text-align: center;
+    background-color:indianred;
+}
+
+.profileContainerL-box-input input {
+    margin-bottom: 15px;
+    padding-left: 60px;
+}
+
+.profileContainerL-box-body {
+    font-size:20px;
+    padding-left: 5px;
+}
+
+.profileContainerL-box-body:nth-of-type(odd) {
+    background-color:indianred;
+}
+
+.profileContainerR {
+    width:20%;
+    min-width: 350px;
+    color: white;
+    float:right;
+    padding: 10px;
+    margin-right: 425px;
+}
+
+.profileContainerR-box {
+    margin-bottom:20px;
+    border:2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:darkred;
+    background-color:indianred;
+}
+
+.profileContainerR-box-header {
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: darkred;
+}
+
+.profileContainerR-box-input {
+    text-align: center;
+    background-color:indianred;
+}
+
+.profileContainerR-box-input input {
+    margin-bottom: 15px;
+    padding-right: 60px;
+}
+
+.profileContainerR-box-body {
+    font-size:20px;
+    padding-right: 5px;
+}
+
+.profileContainerR-box-body:nth-of-type(odd) {
+    background-color:indianred;
+}
+
+.avatarContainer {
+    color: white;
+    float:left;
+    margin-top:20px;
+    margin-left: 7%;
+}
+
+.avatarContainer-box {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 7px;
+    border-color:darkred;
+    background-color:indianred;
+}
+
+.header {
+    margin-left: 300px;
+    padding-bottom: 200px;
+    color:white;
+    font-weight: 1000;
+}

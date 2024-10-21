@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "FoxRide",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+body {
+    background-image: url(/FoxRide/public/images/loginbg.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the login form container */
+.card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the login form header */
+.card-header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0; 
+}
+
+/* Style the login form labels */
+.form-label {
+    font-weight: bold;
+    color: #343a40; 
+}
+
+/* Style the login form input fields */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Style the login button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white; 
+}
+
+/* Style the login button on hover */
+.btn-primary:hover {
+    background-color: #00b31e;
+}
+
+/* Style the "Home" link */
+.taskBarButton {
+    color: whitesmoke; 
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
+/* Style the "Home" link on hover */
+.taskBarButton:hover {
+    color: rgb(148, 153, 158);
+}

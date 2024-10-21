@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/profile_style.css">
+    <link rel="stylesheet" href="../public/css/nav_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="taskBar">
+        <div class="navContainer d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="logo">
+                    <a href="home.html" class="taskBarButton ml-auto" style="font-size:larger"><img src="../public/images/new_foxridelogo.png" alt="FoxRide Logo" class="small-logo"></a>
+                </div>
+                <h1>
+                <a href="home.html" class="taskBarButton ml-auto" style="font-size:larger">FOXRIDE</a>
+
+                </h1>
+            </div>
+            <div>
+                <a href="home.html" class="taskBarButton ml-auto">Home</a>
+                <a href="tripView.html" class="taskBarButton ml-auto">Trip</a>
+                <a href="profile.html" class="taskBarButton ml-auto">Profile</a>
+                <a href="login.html" class="taskBarButton ml-auto">Login</a>
+                <a href="signup.html" class="taskBarButton ml-auto">SignUp</a>
+        </div>
+        </div>
+    </nav>
+    
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Fox_rider342</h1>
+            </div>
+        </div>
+        <div class="avatarContainer">
+            <div class="avatarContainer-box">
+                <img src="../public/images/defaultpfp.png" alt="FoxRide Logo" class="avatar-logo">
+            </div>
+        </div>
+    </div>
+    <div class="header">
+       <h2>Rider 
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+         Driver</h1>
+    </div>
+
+    <div class="profileContainerL" style="margin-left: 23%; margin-top: 10px;">
+        <div class="profileContainerL-box">
+            <div class="profileContainerL-box-header"> <p>Statistics</p> </div>
+            <div class="profileContainerL-box-input">
+                <label for="tripsTaken"></label>
+                <output type="text" id="tripsTaken" name="tripsTaken">
+                    <p>Total Trips Taken: 4 trips</p>
+                </output>
+            </div>
+            <div class="profileContainerL-box-input">
+                <label for="distanceTraveled"></label>
+                <output type="text" id="distanceTraveled" name="distanceTraveled">
+                    <p>Distance Traveled: 7 miles</p>
+                </output>
+            </div>
+        </div>
+    </div>
+
+    <div class="profileContainerR">
+        <div class="profileContainerR-box">
+            <div class="profileContainerR-box-header"> <p>Statistics</p> </div>
+            <div class="profileContainerR-box-input">
+                <label for="totalTrips"></label>
+                <output type="text" id="totalTrips" name="totalTrips">
+                    <p>Total Trips Given: 2 trips</p>
+                </output>
+            </div>
+            <div class="profileContainerR-box-input">
+                <label for="distanceTraveled"></label>
+                <output type="text" id="distanceTraveled" name="distanceTraveled">
+                    <p>Distance Traveled: 5 miles</p>
+                </output>
+            </div>
+        </div>
+        <a href="verifyDriver.html" class="taskBarButton ml-auto" style="float: right; padding-right: 1%;">Driver Not Verified?</a>
+
+    </div>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
