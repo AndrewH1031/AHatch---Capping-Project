@@ -1,3 +1,7 @@
+Please note: this project was cloned from its original private repository with full permissions from its other authors.
+
+Original date of completion: __12/12/23__
+
 # CS-Capping
 
 ## FoxRide
